@@ -1,0 +1,28 @@
+# 編譯產物
+dist/
+dist-newstyle/
+*.o
+*.hi
+
+# 測試產物
+*.tix
+
+# 配置文件
+cabal.project.local
+cabal.config
+
+# IDE 和編輯器特定的文件
+*.stack-work/
+.stack-work/
+
+# Haskell REPL
+*.ghci
+*.ghci-history
+
+# 輸出文件
+*.log
+*.aux
+
+# 一般操作系統生成的文件
+.DS_Store
+Thumbs.db
